@@ -4,6 +4,19 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 
+// Method Overide
+
+const methodOverride = require('method-override');
+
+// Import Mongose
+const mongoose = require('mongoose');
+mongoose.connect('mongodb://localhost:27017/db_staycation', {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  useCreateIndex: true,
+  useFindAndModify: false,
+});
+
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 // Router Admin
@@ -14,6 +27,8 @@ var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
+app.use(methodOverride('X-HTTP-Method-Override'));
+app.use(methodOverride('_method'));
 
 app.use(logger('dev'));
 app.use(express.json());
