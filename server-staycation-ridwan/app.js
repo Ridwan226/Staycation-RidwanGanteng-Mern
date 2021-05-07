@@ -3,6 +3,8 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
+const session = require('express-session');
+const flash = require('connect-flash');
 
 // Method Overide
 
@@ -30,6 +32,15 @@ app.set('view engine', 'ejs');
 app.use(methodOverride('X-HTTP-Method-Override'));
 app.use(methodOverride('_method'));
 
+app.use(
+  session({
+    secret: 'keyboard cat',
+    resave: false,
+    saveUninitialized: true,
+    cookie: {maxAge: 6000},
+  }),
+);
+app.use(flash());
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({extended: false}));
