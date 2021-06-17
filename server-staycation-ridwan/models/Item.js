@@ -20,10 +20,15 @@ const itemSchema = new mongoose.Schema({
   },
   isPopular: {
     type: Boolean,
+    default: false,
   },
   description: {
     type: String,
     required: true,
+  },
+  category: {
+    type: ObjectId,
+    ref: 'Category',
   },
   imageId: [
     {
