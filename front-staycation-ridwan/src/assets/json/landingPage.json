@@ -64,7 +64,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "PSW Antasari",
-          "imageUrl": "/images/image-category-1.jpg",
+          "imageUrl": "/images/categori/imagecategori1-1.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": true
@@ -72,7 +72,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Kuretakeso",
-          "imageUrl": "/images/image-category-2.jpg",
+          "imageUrl": "/images/categori/imagecategori1-2.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -80,7 +80,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Arya Duta",
-          "imageUrl": "/images/image-category-3.jpg",
+          "imageUrl": "/images/categori/imagecategori1-3.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -88,7 +88,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Grand Dhika",
-          "imageUrl": "/images/image-category-4.jpg",
+          "imageUrl": "/images/categori/imagecategori1-4.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -102,7 +102,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "PSW Antasari",
-          "imageUrl": "/images/image-category-5.jpg",
+          "imageUrl": "/images/categori/imagecategori2-1.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -110,7 +110,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Kuretakeso",
-          "imageUrl": "/images/image-category-6.jpg",
+          "imageUrl": "/images/categori/imagecategori2-2.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -118,7 +118,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Arya Duta",
-          "imageUrl": "/images/image-category-7.jpg",
+          "imageUrl": "/images/categori/imagecategori2-3.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -126,7 +126,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Grand Dhika",
-          "imageUrl": "/images/image-category-8.jpg",
+          "imageUrl": "/images/categori/imagecategori2-4.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": true
@@ -140,15 +140,15 @@
         {
           "_id": "asd1293uasdads1",
           "name": "PSW Antasari",
-          "imageUrl": "/images/image-category-9.jpg",
+          "imageUrl": "/images/categori/imagecategori3-1.png",
           "country": "South Korea",
           "city": "Seoul Flore",
-          "isPopular": false
+          "isPopular": true
         },
         {
           "_id": "asd1293uasdads1",
           "name": "Kuretakeso",
-          "imageUrl": "/images/image-category-10.jpg",
+          "imageUrl": "/images/categori/imagecategori3-2.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -156,7 +156,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Arya Duta",
-          "imageUrl": "/images/image-category-11.jpg",
+          "imageUrl": "/images/categori/imagecategori3-3.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": true
@@ -164,7 +164,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Grand Dhika",
-          "imageUrl": "/images/image-category-12.jpg",
+          "imageUrl": "/images/categori/imagecategori3-4.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
